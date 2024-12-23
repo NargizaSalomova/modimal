@@ -1,6 +1,6 @@
 # Layout of the main page of the Modimal store on the Gulp assembly
 
-##Technologies:
+Technologies:
 - HTML,
 - SCSS,
 - Gulp,
