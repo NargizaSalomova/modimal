@@ -6,4 +6,4 @@ Technologies:
 - Gulp,
 - JS
 
-[Смотреть демо](https://nargizasalomova.github.io/modimal/)
+[Watch demo](https://nargizasalomova.github.io/modimal/)
