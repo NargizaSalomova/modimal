@@ -1,0 +1,38 @@
+.account {
+	display: flex;
+	align-items: center;
+	gap: 24px;
+
+	@include tablet {
+		gap: 12px;
+	}
+
+	@include mobile {
+		&__search {
+			order: 1;
+		}
+	}
+
+	a {
+		display: inline-block;
+	}
+
+	a:hover {
+		background: var(--neutral-grayededed);
+	}
+
+}
+
+.account__person{
+	@include mobile {
+		display: none;
+	}
+}
+
+.account__menu {
+	display: none;
+
+	@include mobile {
+		display: block;
+	}
+}

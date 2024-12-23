@@ -1,0 +1,36 @@
+.nav {
+	font-family: var(--font-family);
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 180%;
+	text-transform: capitalize;
+	text-align: center;
+	color: var(--neutral-gray404040);
+
+	@include tablet {
+		font-size: 16px;
+	}
+}
+.nav__list {
+	display: flex;
+	column-gap: 30px;
+	transition: all 0.2s ease-in;
+
+
+	@include tablet {
+		column-gap: 15px;
+	}
+
+	a {
+		color:inherit;
+	}
+
+	a:hover {
+		color: #000000;
+	}
+
+	a.active {
+		color: #000000;
+	}
+
+}
